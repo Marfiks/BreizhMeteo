@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.marfiks.breizhmeteo.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.marfiks.breizhmeteo.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_propos"
+        android:name="com.marfiks.breizhmeteo.ui.propos.ProposFragment"
+        android:label="@string/menu_propos"
+        tools:layout="@layout/fragment_propos" />
+
+    <fragment
+        android:id="@+id/nav_villes"
+        android:name="com.marfiks.breizhmeteo.ui.villes.VillesFragment"
+        android:label="@string/menu_villes"
+        tools:layout="@layout/fragment_villes" />
+
+
+</navigation>
